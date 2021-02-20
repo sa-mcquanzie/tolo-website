@@ -5,8 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: index.html
-  label: Main Page
+  path: _layouts/about.html
+  label: About
+  match: "**/*"
 upload_dir: uploads
 public_path: "/img"
 front_matter_path: ''
