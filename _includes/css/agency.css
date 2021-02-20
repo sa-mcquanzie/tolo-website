@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgb(0, 0, 0, 0.75);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -269,9 +269,12 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url("{{ site.baseurl }}/img/main_banner.webp");
     background-position: center center;
     background-repeat: none;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(78,191,155,0.75), rgba(45,191,253,0.75)), url("{{ site.baseurl }}/img/main_banner.webp");
+    background: linear-gradient(rgba(78,191,155,0.75), rgba(45,191,253,0.75)), url("{{ site.baseurl }}/img/main_banner.webp");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -284,11 +287,11 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 header .intro-text .intro-heading {
@@ -308,10 +311,10 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.primary }};
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
+        font-weight: 600;
     }
 
     header .intro-text .intro-heading {
@@ -658,7 +661,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -864,4 +866,91 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/* Map Styles */
+
+#map {
+  width: 50vh;
+  height: 50vh;
+}
+
+/* Styling for Autocomplete search bar */
+#pac-card {
+  background-color: #fff;
+  border-radius: 2px 0 0 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 10px 10px 0 0;
+  -moz-box-sizing: border-box;
+  outline: none;
+}
+
+#pac-container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #acbcc9;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 6px 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Styling for an info pane that slides out from the left. 
+ * Hidden by default. */
+#panel {
+  height: 100%;
+  width: null;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: all .2s ease-out;
+}
+
+.open {
+  width: 250px;
+}
+
+.place {
+  font-family: 'open sans', arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-block-end: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.distanceText {
+  color: silver;
+  font-family: 'open sans', arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin-block-start: 0.25em;
+  padding-left: 18px;
+  padding-right: 18px;
 }
