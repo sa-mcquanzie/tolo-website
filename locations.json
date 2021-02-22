@@ -3,23 +3,6 @@
   "features": [
     {
       "geometry": {
-        "coordinates": [
-          "-0.14743162978572938",
-          "51.456227205981165"
-        ],
-        "type": ""
-      },
-      "type": "",
-      "properties": {
-        "railid": "5",
-        "name": "Bexelyheath",
-        "days": "Saturday",
-        "times": "11:00 - 15:00",
-        "details": "Bexelyheath shopping centre, opposite the M&S"
-      }
-    },
-    {
-      "geometry": {
         "type": "Point",
         "coordinates": [
           -0.06987308348168735,
