@@ -4,18 +4,18 @@
     {
       "geometry": {
         "coordinates": [
-          "200",
-          "100"
+          "-0.14743162978572938",
+          "51.456227205981165"
         ],
         "type": ""
       },
       "type": "",
       "properties": {
         "railid": "5",
-        "name": "TOLO Test",
-        "days": "Monday",
-        "times": "13:00 - 15:00",
-        "details": "In the park"
+        "name": "Bexelyheath",
+        "days": "Saturday",
+        "times": "11:00 - 15:00",
+        "details": "Bexelyheath shopping centre, opposite the M&S"
       }
     },
     {
