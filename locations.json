@@ -3,6 +3,23 @@
   "features": [
     {
       "geometry": {
+        "coordinates": [
+          "200",
+          "100"
+        ],
+        "type": ""
+      },
+      "type": "",
+      "properties": {
+        "railid": "5",
+        "name": "TOLO Test",
+        "days": "Monday",
+        "times": "13:00 - 15:00",
+        "details": "In the park"
+      }
+    },
+    {
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -0.06987308348168735,
