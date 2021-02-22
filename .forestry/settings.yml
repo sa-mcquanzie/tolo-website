@@ -7,7 +7,6 @@ sections:
 - type: document
   path: locations.json
   label: Rail Locations
-  match: "**/*"
 - type: document
   path: _layouts/default.html
   label: Main
