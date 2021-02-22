@@ -4,7 +4,10 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.06987308348168735, 51.47374984539107]
+        "coordinates": [
+          -0.06987308348168735,
+          51.47374984539107
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -18,7 +21,10 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.12324168333619703, 51.48608101330945]
+        "coordinates": [
+          -0.12324168333619703,
+          51.48608101330945
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -32,7 +38,10 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.1798399329570955, 51.54667850407707]
+        "coordinates": [
+          -0.1798399329570955,
+          51.54667850407707
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -46,7 +55,10 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.10408410601656275, 51.56515573430479]
+        "coordinates": [
+          -0.10408410601656275,
+          51.56515573430479
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -59,4 +71,3 @@
     }
   ]
 }
-
