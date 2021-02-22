@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: _collections/locations
+  path: _locations
   label: Locations
   create: documents
   match: "**/*"
