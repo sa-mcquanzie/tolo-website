@@ -6,6 +6,5 @@ name: Peckham
 days: Saturday
 times: 11:00 - 12:00
 details: Outside the Library
-published: false
 
 ---
