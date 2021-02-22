@@ -5,6 +5,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "railid": "5",
+        "name": "TOLO Bexleyheath",
+        "days": "Saturday",
+        "times": "11:00 - 15:00",
+        "details": "Bexelyheath shopping centre, opposite the M&S"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.06987308348168735,
           51.47374984539107
         ]
