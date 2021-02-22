@@ -1,23 +1,17 @@
----
-logo: "/img/coat-hanger.svg"
-heading: Take one / Leave One
-subheading: If you're cold, take one. If you can help, leave one
----
-
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img src="{{ layout.logo }}" style="height: 200%">
+      </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">
-        <img src="{{ page.logo }}">
-      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,10 +44,10 @@ subheading: If you're cold, take one. If you can help, leave one
   <div class="container">
     <div class="intro-text">
       <div class="intro-heading">
-        {{ page.heading }}
+        {{ layout.heading }}
       </div>
       <div class="intro-lead-in">
-        {{ page.subheading }}
+        {{ layout.subheading }}
       </div>
       <a href="#about" class="page-scroll btn btn-xl">Find out more</a>
     </div>
