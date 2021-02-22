@@ -5,9 +5,10 @@ fields:
 - type: text
   name: type
   label: type
+  hidden: true
 - type: field_group_list
   name: features
-  label: features
+  label: Location
   fields:
   - type: field_group
     name: geometry
@@ -18,9 +19,11 @@ fields:
       hidden: true
     - type: list
       name: coordinates
-      label: coordinates
-    label: Location
+      label: coordinate
+      config:
+        use_select: false
     description: Add location co-ordinates for the rail
+    label: Geometry
   - type: text
     name: type
     label: type
