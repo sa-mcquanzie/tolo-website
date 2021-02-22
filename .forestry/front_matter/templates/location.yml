@@ -62,4 +62,4 @@ fields:
     max: 
     step: 
 pages:
-- _collections/locations/peckham.md
+- _locations/peckham.html
