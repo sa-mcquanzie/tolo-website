@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _layouts/default.html
+  label: Main
+  match: "**/*"
+- type: document
   path: _includes/about.html
   label: About
 upload_dir: uploads
