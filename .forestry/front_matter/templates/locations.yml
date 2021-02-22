@@ -11,24 +11,30 @@ fields:
   fields:
   - type: field_group
     name: geometry
-    label: geometry
     fields:
     - type: text
       name: type
       label: type
+      hidden: true
     - type: list
       name: coordinates
       label: coordinates
+    label: Location
+    description: Add location co-ordinates for the rail
   - type: text
     name: type
     label: type
+    hidden: true
   - type: field_group
     name: properties
-    label: properties
+    label: Information
     fields:
     - type: text
       name: railid
       label: railid
+    - type: text
+      name: name
+      label: name
     - type: text
       name: days
       label: days
@@ -38,6 +44,3 @@ fields:
     - type: text
       name: details
       label: details
-    - type: text
-      name: name
-      label: name
