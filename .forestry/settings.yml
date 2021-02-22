@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: locations.json
-  label: Rail Locations
+- type: directory
+  path: _collections/locations
+  label: Locations
+  create: documents
+  match: "**/*"
 - type: document
   path: _layouts/default.html
   label: Main

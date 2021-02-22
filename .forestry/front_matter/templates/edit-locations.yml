@@ -48,5 +48,3 @@ fields:
       label: details
   label: Locations
   description: Edit individual rails
-pages:
-- locations.json
