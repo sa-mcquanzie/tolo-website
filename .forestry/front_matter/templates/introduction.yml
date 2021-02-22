@@ -1,14 +1,4 @@
 ---
 label: Introduction
 hide_body: false
-fields:
-- name: introduction
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Introduction
-  description: Text for the About section. Introduce the project here.
+fields: []
