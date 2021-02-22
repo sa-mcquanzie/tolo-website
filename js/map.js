@@ -96,7 +96,7 @@ function initMap() {
   })
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson("{{ site.data.locations }}", {idPropertyName: "railid"})
+  map.data.loadGeoJson("locations.json", {idPropertyName: "railid"})
 
 //  Custom Marker
 

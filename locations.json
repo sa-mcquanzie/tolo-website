@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.06987308348168735, 51.47374984539107]
+      },
+      "type": "Feature",
+      "properties": {
+        "railid": "1",
+        "days": "Saturday",
+        "times": "11:00 - 15:00",
+        "details": "Under the arch by the library",
+        "name": "TOLO Peckham Library"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12324168333619703, 51.48608101330945]
+      },
+      "type": "Feature",
+      "properties": {
+        "railid": "2",
+        "name": "TOLO Vauxhall",
+        "days": "Friday",
+        "times": "13:00 - 17:00",
+        "details": "Under the arch at the bus station"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1798399329570955, 51.54667850407707]
+      },
+      "type": "Feature",
+      "properties": {
+        "railid": "3",
+        "name": "TOLO South Hampstead",
+        "days": "Sunday",
+        "times": "11:00 - 16:00",
+        "details": "Finchley Road Station (outside Waitrose)"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.10408410601656275, 51.56515573430479]
+      },
+      "type": "Feature",
+      "properties": {
+        "railid": "4",
+        "name": "TOLO Finsbury Park",
+        "days": "Sunday",
+        "times": "11:00 - 16:00",
+        "details": "Finsbury Park Tube (national rail entrance)"
+      }
+    }
+  ]
+}
+
