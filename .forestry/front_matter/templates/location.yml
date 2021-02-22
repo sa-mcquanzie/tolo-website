@@ -1,4 +1,63 @@
 ---
 label: Location
 hide_body: true
-fields: []
+fields:
+- name: railid
+  type: number
+  label: Rail ID
+  description: ''
+  default: 
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 
+- name: name
+  type: text
+  config:
+    required: false
+  label: Location Name
+  description: Location of the rail, e.g. Peckham Library
+- name: days
+  type: text
+  config:
+    required: false
+  label: Day(s)
+  description: Day or days the rail is open, eg. Saturday or Monday to Friday
+- name: times
+  type: text
+  config:
+    required: false
+  label: Opening Times
+  description: Opening times in 24 hour format, e.g. 11:00 - 15:00
+- name: details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Location Details
+  description: Details about the location, e.g. Next to the supermarket
+- name: latitude
+  type: number
+  label: Latitude
+  description: 'Latitude of the rail (Note: in the UK this is going to be the bigger
+    number!)'
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: longitude
+  type: number
+  label: Longitude
+  description: Longitude of the rail (smaller number in the UK)
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
