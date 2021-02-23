@@ -35,3 +35,5 @@ fields:
       format: markdown
   label: About Text
   description: Include your introduction to Take One Leave One here
+pages:
+- _includes/about.html
