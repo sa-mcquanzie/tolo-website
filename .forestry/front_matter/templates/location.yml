@@ -3,16 +3,6 @@ label: Location
 hide_body: true
 display_field: name
 fields:
-- name: railid
-  type: number
-  label: Rail ID
-  description: ''
-  default: 
-  required: true
-  config:
-    min: 1
-    max: 
-    step: 
 - name: name
   type: text
   config:
