@@ -2,6 +2,13 @@
 label: Main Page Template
 hide_body: true
 fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Navbar Logo
+  description: Logo displayed on the left of the navigation bar / header area
+  default: "/img/tolo_hangers.webp"
 - name: header-heading
   type: textarea
   default: |-
