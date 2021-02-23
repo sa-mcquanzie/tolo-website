@@ -11,12 +11,6 @@ sections:
   match: "**/*"
   templates:
   - location
-- type: document
-  path: _layouts/default.html
-  label: Main
-- type: document
-  path: _includes/about.html
-  label: About
 upload_dir: uploads
 public_path: "/img"
 front_matter_path: ''
