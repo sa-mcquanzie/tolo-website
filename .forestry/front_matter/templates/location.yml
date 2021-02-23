@@ -1,6 +1,7 @@
 ---
 label: Location
 hide_body: true
+display_field: name
 fields:
 - name: railid
   type: number
