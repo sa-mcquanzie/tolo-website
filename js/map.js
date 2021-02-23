@@ -219,7 +219,6 @@ function initMap() {
     console.log(place);
 
     originMarker.setPosition(originLocation);
-    originMarker.setVisible(true);
 
     // Use the selected address as the origin to calculate distances
     // to each of the store locations
