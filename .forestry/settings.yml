@@ -15,9 +15,6 @@ sections:
   label: Edit Site Text
 - type: document
   path: index.html
-  label: About
-- type: document
-  path: index.html
   label: Header
 - type: document
   path: _includes/locations.html

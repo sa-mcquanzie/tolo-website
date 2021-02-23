@@ -1,20 +1,40 @@
 ---
-label: About Section Template
+label: Main Page Template
 hide_body: true
 fields:
+- name: header-heading
+  type: textarea
+  default: |-
+    Take One
+
+    Leave One
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Main Heading
+  description: BIG heading. (Recommended 2 - 3 lines max)
+- name: header-subheading
+  type: text
+  config:
+    required: false
+  label: Main Subheading
+  description: Main page subheading, suitable for a slogan, slug or tagline
+  default: If you're cold, take one. If you can help, leave one
 - name: about-heading
   type: text
   config:
     required: false
-  label: Heading
+  label: About Section Heading
   description: Heading for the About section
   default: About
 - name: about-subheading
   type: text
   config:
     required: false
-  label: Subheading
-  description: Subheading for the about section
+  label: About Section Subheading
+  description: Subheading / description of the about section
   default: What is Take One Leave One?
 - name: about-body
   type: textarea
@@ -33,7 +53,46 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Text
+  label: About Section Text
   description: Include your introduction to Take One Leave One here
+- name: find-heading
+  type: text
+  config:
+    required: false
+  label: Find Section Heading
+  description: Heading for the find section, e.g. "Locations", "Find a rail" etc.
+  default: Find A Rail
+- name: find-subheading
+  type: text
+  config:
+    required: false
+  label: Find Section Subheading
+  description: Subheading / description of the Find section
+  default: Search for a Take One Leave One rail near you
+- name: host-heading
+  type: text
+  config:
+    required: false
+  label: Host Heading
+  description: Heading of the Host section
+  default: Host A Rail
+- name: host-subheading
+  type: text
+  config:
+    required: false
+  label: Host Subheading
+  description: Subheading / description of the Host section
+  default: Set up Take One Leave One in your neighbourhood
+- name: host-body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Host Text
+  description: Content for the Host section. Provide information about setting up
+    your own rail here.
 pages:
 - index.html
