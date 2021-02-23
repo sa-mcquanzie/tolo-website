@@ -2,21 +2,21 @@
 label: About Section Template
 hide_body: true
 fields:
-- name: heading
+- name: about-heading
   type: text
   config:
     required: false
   label: Heading
   description: Heading for the About section
   default: About
-- name: subheading
+- name: about-subheading
   type: text
   config:
     required: false
   label: Subheading
   description: Subheading for the about section
   default: What is Take One Leave One?
-- name: body
+- name: about-body
   type: textarea
   default: |-
     Take One / Leave One is an initiative committed to keeping our neighbours warm this winter and beyond.
