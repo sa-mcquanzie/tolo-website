@@ -41,8 +41,8 @@ gems:
 google-maps-api-key: AIzaSyB-mt7bnEaQPXmgmgw9Y2NVrMv2JKq4X_c
 
 collections:
-  - locations
-
+  locations:
+    output: true
         
 # Exclude from processing.
 # The following items will not be processed, by default.

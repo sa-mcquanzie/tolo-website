@@ -95,9 +95,35 @@ function initMap() {
     disableDefaultUI: false
   })
 
-  // Load the stores GeoJSON onto the map.
+  // Generate GeoJSON from the locations collection & load it into the map.
+
+  let locations = {{ site.locations | jsonify }}
+  let locFeatures = []
   
-  map.data.loadGeoJson("locations.json", {idPropertyName: "railid"})
+  for (let location of locations) {
+    let obj = {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [location["longitude"], location["latitude"]],
+      },
+      properties: {
+        railid: location["railid"],
+        name: location["name"],
+        days: location["days"],
+        times: location["times"],
+        details: location["details"]
+      }
+    }
+    locFeatures.push(obj)
+  }
+
+  const locationData = {
+    type: "FeatureCollection",
+    features: locFeatures
+  }
+  
+  map.data.addGeoJson(locationData, {idPropertyName: "railid"})
 
 //  Custom Marker
 
