@@ -17,7 +17,7 @@ sections:
   path: index.html
   label: About
 - type: document
-  path: _includes/header.html
+  path: index.html
   label: Header
 - type: document
   path: _includes/locations.html
