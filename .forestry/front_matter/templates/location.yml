@@ -53,6 +53,7 @@ fields:
     max: 
     step: 
 pages:
+- _locations/bethnal-green.html
 - _locations/bexeleyheath.html
 - _locations/brixton.html
 - _locations/croydon.html
