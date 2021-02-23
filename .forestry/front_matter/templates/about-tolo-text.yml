@@ -84,6 +84,17 @@ fields:
   label: Find Section Subheading
   description: Subheading / description of the Find section
   default: Search for a Take One Leave One rail near you
+- name: find-message
+  type: textarea
+  default: "<p>No rails nearby? It's easy to set one up by following our guide below.</p>"
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Find Section Message
+  description: Brief message to display below the location list (used by default to
+    suggest that people set up their own rail, if they can't find one nearby)
 - name: host-heading
   type: text
   config:
