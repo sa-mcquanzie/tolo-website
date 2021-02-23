@@ -14,8 +14,8 @@ sections:
 - type: document
   path: index.html
   label: Edit Site Content
-upload_dir: uploads
-public_path: "/img"
+upload_dir: img
+public_path: img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

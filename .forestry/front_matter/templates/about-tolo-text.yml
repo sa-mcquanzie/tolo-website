@@ -62,6 +62,14 @@ fields:
       format: html-blocks
   label: About Section Text
   description: Include your introduction to Take One Leave One here
+- name: about-image
+  type: file
+  config:
+    maxSize: 64
+  label: About Section Image
+  description: Image displayed to the left (on desktop) or above (on mobile) the About
+    section text
+  default: img/peckham-1.jpg
 - name: find-heading
   type: text
   config:
