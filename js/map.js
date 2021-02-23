@@ -99,8 +99,10 @@ function initMap() {
 
   let locations = {{ site.locations | jsonify }}
   let locFeatures = []
+  let railid = 0
   
   for (let location of locations) {
+    railid ++
     let obj = {
       type: "Feature",
       geometry: {
@@ -108,7 +110,7 @@ function initMap() {
         coordinates: [location["longitude"], location["latitude"]],
       },
       properties: {
-        railid: location["railid"],
+        railid: railid,
         name: location["name"],
         days: location["days"],
         times: location["times"],
