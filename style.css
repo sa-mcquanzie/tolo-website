@@ -555,13 +555,19 @@ body {
  * Hidden by default. */
 #location-list {
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem;
   background-color: white;
   z-index: 1;
+  height: 50%;
   overflow-x: hidden;
+  overflow-y: scroll;
   transition: all .2s ease-out;
 }
 
+#location-list-message {
+  height: 30%;
+  vertical-align: bottom;
+}
 .open {
   width: 250px;
 }
