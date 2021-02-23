@@ -2,13 +2,6 @@
 label: About TOLO Text
 hide_body: true
 fields:
-- name: subheading
-  type: text
-  config:
-    required: false
-  label: Subheading
-  description: Subheading for the about section
-  default: What is Take One Leave One?
 - name: heading
   type: text
   config:
@@ -16,6 +9,13 @@ fields:
   label: Heading
   description: Heading for the About section
   default: About
+- name: subheading
+  type: text
+  config:
+    required: false
+  label: Subheading
+  description: Subheading for the about section
+  default: What is Take One Leave One?
 - name: body
   type: textarea
   default: |-
@@ -33,7 +33,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: About Text
+  label: Text
   description: Include your introduction to Take One Leave One here
 pages:
 - _includes/about.html
